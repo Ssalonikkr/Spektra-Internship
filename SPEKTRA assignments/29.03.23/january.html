@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Sundays on 1st January between 2014-2050</title>
+    </head>
+    <body bgcolor="cyan" >
+	<h1>Sundays on 1st January between 2014-2050</h1>
+        <script>
+        function sunday () {
+            for (var year = 2014; year <= 2050; year++) {
+              var d = new Date(year, 0, 1);
+              if (d.getDay() === 0) {
+                document.write('1st January is being a Sunday ' + year +"<br>");
+              }
+            }
+          }
+          sunday();
+        </script>
+    </body>
+</html>

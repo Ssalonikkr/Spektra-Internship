@@ -1,0 +1,18 @@
+<form>
+<table align="center" bgcolor="aqua">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mob. No.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.mob }}</td>
+      </tr>
+    </tbody>
+  </table>
+</form>

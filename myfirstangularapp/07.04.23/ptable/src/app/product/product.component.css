@@ -1,0 +1,36 @@
+
+tr:hover {background-color: rgba(64, 125, 98, 0.623);}
+tbody{size: 50px;}
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
+  img{
+    height: 25px;
+    width: 25px;
+  }
+  table, th, td {
+    border: 1px solid rgb(15, 50, 58);
+    border-collapse: collapse;
+  }
+ thead{
+    color: #306255;
+ }
+ tr {
+    color: rgb(21, 71, 56);
+  }
+  th {
+    background-color: #1c4a46;
+    color: white;
+  }
+
+  

@@ -1,0 +1,8 @@
+form{
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fmdbootstrap.com%2Fdocs%2Fb4%2Fangular%2Fcss%2Fbackground-image%2F&psig=AOvVaw2cg9bicy8lhPrv_3iiha97&ust=1680688339186000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjP74_6j_4CFQAAAAAdAAAAABAD');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: rgb(227, 145, 233);
+    border-width: 50px;
+    border-style: outset;
+   }

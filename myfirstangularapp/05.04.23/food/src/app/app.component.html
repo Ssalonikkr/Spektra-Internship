@@ -1,0 +1,11 @@
+<div>
+<a [routerLink]="['/north']">North Indian Foods</a><br>
+<a [routerLink]="['/south']">South Indian Foods</a><br>
+
+<button (click)="GetNorth()">North Indian Food</button><br>
+<button (click)="GetSouth()">South Indian Food</button>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
+</div>

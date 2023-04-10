@@ -1,0 +1,37 @@
+
+<h1 align="center">Parent Component</h1>
+<table align="center">
+    
+    <thead>
+        <tr>
+            <th>ID</th><br>
+            <th>Name</th><br><br>
+            <th>Gender</th><br>
+            <th>DOB</th><br>
+            <th>Course Fee</th><br>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor='let student of students'>
+            <td >{{student.ID | uppercase}}</td><br>
+            <td>{{student.FirstName | uppercase}}</td><br><br>
+            <td>{{student.Gender}}</td>      <br>
+            <td>{{student.DOB | date:'dd/MM/yy'}}</td><br>
+            <td>{{student.CourseFee | currency:'INR':true:'1.2-2'}}</td><br>
+        </tr>
+        <tr *ngIf="!students || students.length==0">
+            <td colspan="10">
+                No Students to display
+            </td>
+        </tr>
+        <h1>Child Component</h1>
+        <app-sdetails [all]="getCount()"
+         [male]="getMaleCount()"
+         [female]="getFemaleCount()"></app-sdetails>
+    </tbody>
+</table>
+
+<div>
+ <router-outlet>
+ </router-outlet>
+</div>

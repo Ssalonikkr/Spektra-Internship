@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="portfolio.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="plight-grey pcontent" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="psidebar pcollapse pwhite panimate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="pcontainer">
+    <a href="#" onclick="w3_close()" class="phide-large pright pjumbo ppadding phover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="pround"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+    <p class="ptext-grey">Template by W3.CSS</p>
+  </div>
+  <div class="pbar-block">
+    <a href="#portfolio" onclick="w3_close()" class="pbar-item pbutton ppadding ptext-teal"><i class="fa fa-th-large fa-fw pmargin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="pbar-item pbutton ppadding"><i class="fa fa-user fa-fw pmargin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="pbar-item pbutton ppadding"><i class="fa fa-envelope fa-fw pmargin-right"></i>CONTACT</a>
+  </div>
+  <div class="ppanel plarge">
+    <i class="fa fa-facebook-official phover-opacity"></i>
+    <i class="fa fa-instagram phover-opacity"></i>
+    <i class="fa fa-snapchat phover-opacity"></i>
+    <i class="fa fa-pinterest-p phover-opacity"></i>
+    <i class="fa fa-twitter phover-opacity"></i>
+    <i class="fa fa-linkedin phover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="poverlay phide-large panimate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="pmain" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="pcircle pright pmargin phide-large phover-opacity"></a>
+    <span class="pbutton phide-large pxxlarge phover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="pcontainer">
+    <h1><b>My Portfolio</b></h1>
+    <div class="psection pbottombar ppadding-16">
+      <span class="pmargin-right">Filter:</span> 
+      <button class="pbutton pblack">ALL</button>
+      <button class="pbutton pwhite"><i class="fa fa-diamond pmargin-right"></i>Design</button>
+      <button class="pbutton pwhite phide-small"><i class="fa fa-photo pmargin-right"></i>Photos</button>
+      <button class="pbutton pwhite phide-small"><i class="fa fa-map-pin pmargin-right"></i>Art</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="prow-padding">
+    <div class="pthird pcontainer pmargin-bottom">
+      <img src="/w3images/mountains.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="pthird pcontainer pmargin-bottom">
+      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="pthird pcontainer">
+      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="prow-padding">
+    <div class="pthird pcontainer pmargin-bottom">
+      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="pthird pcontainer pmargin-bottom">
+      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="pthird pcontainer">
+      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="phover-opacity">
+      <div class="pcontainer pwhite">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="pcenter ppadding-32">
+    <div class="pbar">
+      <a href="#" class="pbar-item pbutton phover-black">«</a>
+      <a href="#" class="pbar-item pblack pbutton">1</a>
+      <a href="#" class="pbar-item pbutton phover-black">2</a>
+      <a href="#" class="pbar-item pbutton phover-black">3</a>
+      <a href="#" class="pbar-item pbutton phover-black">4</a>
+      <a href="#" class="pbar-item pbutton phover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="prow-padding ppadding-16" id="about">
+    <div class="pcol m6">
+      <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="pcol m6">
+      <img src="/w3images/me2.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="pcontainer ppadding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <hr>
+    
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Photography</p>
+    <div class="pgrey">
+      <div class="pcontainer pdark-grey ppadding pcenter" style="width:95%">95%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="pgrey">
+      <div class="pcontainer pdark-grey ppadding pcenter" style="width:85%">85%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="pgrey">
+      <div class="pcontainer pdark-grey ppadding pcenter" style="width:80%">80%</div>
+    </div>
+    <p>
+      <button class="pbutton pdark-grey ppadding-large pmargin-top pmargin-bottom">
+        <i class="fa fa-download pmargin-right"></i>Download Resume
+      </button>
+    </p>
+    <hr>
+    
+    <h4>How much I charge</h4>
+    <!-- Pricing Tables -->
+    <div class="prow-padding" style="margin:0 -16px">
+      <div class="pthird pmargin-bottom">
+        <ul class="pul pborder pwhite pcenter popacity phover-opacity-off">
+          <li class="pblack pxlarge ppadding-32">Basic</li>
+          <li class="ppadding-16">Web Design</li>
+          <li class="ppadding-16">Photography</li>
+          <li class="ppadding-16">1GB Storage</li>
+          <li class="ppadding-16">Mail Support</li>
+          <li class="ppadding-16">
+            <h2>$ 10</h2>
+            <span class="popacity">per month</span>
+          </li>
+          <li class="plight-grey ppadding-24">
+            <button class="pbutton pteal ppadding-large phover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="pthird pmargin-bottom">
+        <ul class="pul pborder pwhite pcenter popacity phover-opacity-off">
+          <li class="pteal pxlarge ppadding-32">Pro</li>
+          <li class="ppadding-16">Web Design</li>
+          <li class="ppadding-16">Photography</li>
+          <li class="ppadding-16">50GB Storage</li>
+          <li class="ppadding-16">Endless Support</li>
+          <li class="ppadding-16">
+            <h2>$ 25</h2>
+            <span class="popacity">per month</span>
+          </li>
+          <li class="plight-grey ppadding-24">
+            <button class="pbutton pteal ppadding-large phover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="pthird">
+        <ul class="pul pborder pwhite pcenter popacity phover-opacity-off">
+          <li class="pblack pxlarge ppadding-32">Premium</li>
+          <li class="ppadding-16">Web Design</li>
+          <li class="ppadding-16">Photography</li>
+          <li class="ppadding-16">Unlimited Storage</li>
+          <li class="ppadding-16">Endless Support</li>
+          <li class="ppadding-16">
+            <h2>$ 25</h2>
+            <span class="popacity">per month</span>
+          </li>
+          <li class="plight-grey ppadding-24">
+            <button class="pbutton pteal ppadding-large phover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="pcontainer ppadding-large pgrey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="prow-padding pcenter ppadding-24" style="margin:0 -16px">
+      <div class="pthird pdark-grey">
+        <p><i class="fa fa-envelope pxxlarge ptext-light-grey"></i></p>
+        <p>email@email.com</p>
+      </div>
+      <div class="pthird pteal">
+        <p><i class="fa fa-map-marker pxxlarge ptext-light-grey"></i></p>
+        <p>Chicago, US</p>
+      </div>
+      <div class="pthird pdark-grey">
+        <p><i class="fa fa-phone pxxlarge ptext-light-grey"></i></p>
+        <p>512312311</p>
+      </div>
+    </div>
+    <hr class="popacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="psection">
+        <label>Name</label>
+        <input class="pinput pborder" type="text" name="Name" required>
+      </div>
+      <div class="psection">
+        <label>Email</label>
+        <input class="pinput pborder" type="text" name="Email" required>
+      </div>
+      <div class="psection">
+        <label>Message</label>
+        <input class="pinput pborder" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="pbutton pblack pmargin-bottom"><i class="fa fa-paper-plane pmargin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="pcontainer ppadding-32 pdark-grey">
+  <div class="prow-padding">
+    <div class="pthird">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="pthird">
+      <h3>BLOG POSTS</h3>
+      <ul class="pul phoverable">
+        <li class="ppadding-16">
+          <img src="/w3images/workshop.jpg" class="pleft pmargin-right" style="width:50px">
+          <span class="plarge">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="ppadding-16">
+          <img src="/w3images/gondol.jpg" class="pleft pmargin-right" style="width:50px">
+          <span class="plarge">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="pthird">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="ptag pblack pmargin-bottom">Travel</span> <span class="ptag pgrey psmall pmargin-bottom">New York</span> <span class="ptag pgrey psmall pmargin-bottom">London</span>
+        <span class="ptag pgrey psmall pmargin-bottom">IKEA</span> <span class="ptag pgrey psmall pmargin-bottom">NORWAY</span> <span class="ptag pgrey psmall pmargin-bottom">DIY</span>
+        <span class="ptag pgrey psmall pmargin-bottom">Ideas</span> <span class="ptag pgrey psmall pmargin-bottom">Baby</span> <span class="ptag pgrey psmall pmargin-bottom">Family</span>
+        <span class="ptag pgrey psmall pmargin-bottom">News</span> <span class="ptag pgrey psmall pmargin-bottom">Clothing</span> <span class="ptag pgrey psmall pmargin-bottom">Shopping</span>
+        <span class="ptag pgrey psmall pmargin-bottom">Sports</span> <span class="ptag pgrey psmall pmargin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="pblack pcenter ppadding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="phover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

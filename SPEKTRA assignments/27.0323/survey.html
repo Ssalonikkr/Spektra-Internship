@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<body bgcolor="#D2F4EE">
+<fieldset>
+	<h1 align="center">Survey Form</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="age">Age &nbsp;&nbsp;:</label>
+		<input type="number" id="age" name="age" min="1" max="100"><br>
+
+		<label for="gender">Gender:</label><br>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label><br>
+
+		<label for="interests">Interests:</label><br>
+		<input type="checkbox" id="reading" name="interests" value="Python">
+		<label for="reading">Python</label><br>
+		<input type="checkbox" id="sports" name="interests" value="java">
+		<label for="sports">JAVA</label><br>
+		<input type="checkbox" id="music" name="interests" value="R">
+		<label for="music">R Programming</label><br>
+
+		<label for="birthdate">Birthdate:</label>
+		<input type="date" id="birthdate" name="birthdate"><br>
+
+		<label for="comments">Comments:</label><br>
+		<textarea id="comments" name="comments" rows="5" cols="30"></textarea><br>
+                </fieldset>
+		<input type="submit" value="Submit">
+
+	</form>
+
+</body>
+</html>

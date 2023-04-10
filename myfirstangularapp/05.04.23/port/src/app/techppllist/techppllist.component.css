@@ -1,0 +1,14 @@
+table {
+    color: rgb(35, 61, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid rgb(31, 63, 69);
+    padding:5px;
+}
+th{
+    border: 1px solid rgb(23, 34, 45);
+    padding:5px;
+}

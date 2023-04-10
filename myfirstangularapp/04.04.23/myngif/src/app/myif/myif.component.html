@@ -1,0 +1,13 @@
+<form>
+<div align="center"><div>
+    <input type="radio" name="rb" (click)= "ChangeData(true)" > Valid
+    <input type="radio" name="rb" (click)= "ChangeData(false)"> Invalid
+  </div>
+<div *ngIf="isValid">
+    <b><h1>The Data is valid.</h1></b>
+ </div>  
+ <div *ngIf="!isValid">
+    <b><h1>The Data is invalid.</h1></b>
+ </div>
+</div>
+</form>

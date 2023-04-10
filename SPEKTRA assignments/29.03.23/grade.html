@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Sum, Average and Grade Calculator</title>
+</head>
+<body bgcolor="cyan" align="center">
+	<h1>Array Sum, Average and Grade Calculator</h1>
+	<p>Enter numbers separated by commas:</p>
+	<input type="text" id="numbers">
+	<button onclick="calculate()">Calculate</button>
+	<br>
+	<p id="result"></p>
+	<script>
+		function calculate() {
+		
+			const input = document.getElementById("numbers").value;
+			const numbers = input.split(",").map(num => parseFloat(num));
+			const sum = numbers.reduce((acc, curr) => acc + curr, 0);
+			const avg = sum / numbers.length;
+			let grade;
+			if (avg > 90) {
+				grade = "A";
+			} else if (avg > 80) {
+				grade = "B";
+			} else if (avg > 70) {
+				grade = "C";
+			} else {
+				grade = "F";
+			} 
+			
+			const result = document.getElementById("result");
+			result.innerHTML = `Sum: ${sum}<br>Average: ${avg.toFixed(2)}%<br>Grade: ${grade}`;
+		}
+	</script>
+</body>
+</html>
+

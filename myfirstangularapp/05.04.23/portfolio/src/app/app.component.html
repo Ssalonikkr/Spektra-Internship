@@ -1,0 +1,42 @@
+<h1 align="center">Technical people Portfolio list</h1>
+
+<style>
+  table th,
+  td {
+   padding: 12px 15px;
+   text-align: left;
+   border: 1px solid #ddd;
+ }
+ 
+ table th {
+   background-color: #f2f2f2;
+   font-weight: bold;
+ }
+</style>
+<table align="center">
+ <thead>
+   <tr>
+     <td>Names</td>
+     <td>Details</td>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>SONI</td>
+     <td><a [routerLink]="['/soni']">Soni's Portfolio</a><br/></td>
+   </tr>
+   <tr>
+     <td>JYOTY</td>
+     <td><a [routerLink]="['/jyoti']">Jyoti's Portfolio</a></td>
+   </tr>
+   <tr>
+    <td>SHOBHA</td>
+    <td><a [routerLink]="['/shobha']">Shobha's Portfolio</a></td>
+  </tr>
+ </tbody>
+</table>
+
+<div>
+ <router-outlet>
+ </router-outlet>
+</div>
