@@ -1,0 +1,8 @@
+E:\C# folder\Assign1\Assign1\bin\Debug\Assign1.exe.config
+E:\C# folder\Assign1\Assign1\bin\Debug\Assign1.exe
+E:\C# folder\Assign1\Assign1\bin\Debug\Assign1.pdb
+E:\C# folder\Assign1\Assign1\obj\Debug\Assign1.csproj.AssemblyReference.cache
+E:\C# folder\Assign1\Assign1\obj\Debug\Assign1.csproj.SuggestedBindingRedirects.cache
+E:\C# folder\Assign1\Assign1\obj\Debug\Assign1.csproj.CoreCompileInputs.cache
+E:\C# folder\Assign1\Assign1\obj\Debug\Assign1.exe
+E:\C# folder\Assign1\Assign1\obj\Debug\Assign1.pdb

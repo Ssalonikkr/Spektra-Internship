@@ -1,0 +1,8 @@
+E:\C# folder\Assign7\Assign7\bin\Debug\Assign7.exe.config
+E:\C# folder\Assign7\Assign7\bin\Debug\Assign7.exe
+E:\C# folder\Assign7\Assign7\bin\Debug\Assign7.pdb
+E:\C# folder\Assign7\Assign7\obj\Debug\Assign7.csproj.AssemblyReference.cache
+E:\C# folder\Assign7\Assign7\obj\Debug\Assign7.csproj.SuggestedBindingRedirects.cache
+E:\C# folder\Assign7\Assign7\obj\Debug\Assign7.csproj.CoreCompileInputs.cache
+E:\C# folder\Assign7\Assign7\obj\Debug\Assign7.exe
+E:\C# folder\Assign7\Assign7\obj\Debug\Assign7.pdb
