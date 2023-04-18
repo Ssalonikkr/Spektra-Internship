@@ -1,0 +1,16 @@
+table{
+    width: 50%;
+    color: rgb(103, 66, 138);
+    text-align: center;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: rgb(90, 28, 148);
+    
+}
+td,th {
+    
+    border: 1px solid;
+}
+caption{
+    color: #7c29a5;
+}

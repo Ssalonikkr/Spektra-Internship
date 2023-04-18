@@ -14,8 +14,7 @@ export class PdisplayComponent implements OnInit {
    this.cartData=this.cartDetails.getDetails();
    this.calculateTotal();
     }
-    ngOnInit(): void {
-        
+    ngOnInit(): void {    
     }
     totalQuantity:number=0;
     totalPrice:number=0;

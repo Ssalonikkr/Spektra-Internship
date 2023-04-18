@@ -4,7 +4,7 @@ import { PdisplayComponent } from './pdisplay/pdisplay.component';
 import { ProtableComponent } from './protable/protable.component';
 
 const routes: Routes = [
-  {path:'',component:PdisplayComponent},
+  {path:'',component:ProtableComponent},
   {path:'pdisplay',component:PdisplayComponent},
   {path:'protable',component:ProtableComponent},
 ];

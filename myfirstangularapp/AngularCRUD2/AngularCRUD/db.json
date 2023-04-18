@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstname": "see",
+      "lastname": "ad",
+      "email": "wer",
+      "mobile": "14",
+      "salary": "456",
+      "designation": null
+    },
+    {
+      "id": 3,
+      "firstname": "Saloni s",
+      "lastname": "Kumari a",
+      "email": "ss@gmail.com",
+      "mobile": "7777788888",
+      "salary": "7000022",
+      "designation": "Dev-Intern trainee"
+    },
+    {
+      "id": 4,
+      "firstname": "santh",
+      "lastname": "sr",
+      "email": "as@gmail.com",
+      "mobile": "2345687",
+      "salary": "50000",
+      "designation": "sde-1"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

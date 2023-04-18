@@ -9,7 +9,6 @@ import { items } from '../items';
 })
 export class ProtableComponent implements OnInit{
 
-
   productDetails!:items[];
   constructor(private productsData:PserviceService){
     this.productDetails=productsData.getDetails();

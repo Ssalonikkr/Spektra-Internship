@@ -12,7 +12,6 @@ export class AppComponent {
   ngOnInit(): void {
       
   }
-
   getProduct(){
     this.router.navigate(['protable']);
   }

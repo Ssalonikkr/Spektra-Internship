@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "productName": "Pant",
+      "quantity": "Out of stock",
+      "price": "900"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

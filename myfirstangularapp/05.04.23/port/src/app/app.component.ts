@@ -10,5 +10,5 @@ export class AppComponent {
   title = 'port';
 
   constructor(private router:Router){}
-  Get
+  
 }

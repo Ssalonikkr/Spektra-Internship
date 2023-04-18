@@ -10,8 +10,6 @@ import { EmployeeServiceService } from './employee-service.service';
 export class AppComponent {
   title = 'Services';
   employees!:any[];
-  
-
   constructor(private employeeService: EmployeeServiceService){}
   displayEmployee():any[]{
     this.employees=this.employeeService.getEmployees();
