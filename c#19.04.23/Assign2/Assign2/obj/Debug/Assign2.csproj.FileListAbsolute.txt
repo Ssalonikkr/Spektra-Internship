@@ -1,0 +1,8 @@
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\bin\Debug\Assign2.exe.config
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\bin\Debug\Assign2.exe
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\bin\Debug\Assign2.pdb
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\obj\Debug\Assign2.csproj.AssemblyReference.cache
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\obj\Debug\Assign2.csproj.SuggestedBindingRedirects.cache
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\obj\Debug\Assign2.csproj.CoreCompileInputs.cache
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\obj\Debug\Assign2.exe
+E:\Spektra-Internship\c#19.04.23\Assign2\Assign2\obj\Debug\Assign2.pdb
