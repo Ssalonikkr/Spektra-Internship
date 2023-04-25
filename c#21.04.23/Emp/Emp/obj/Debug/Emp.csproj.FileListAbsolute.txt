@@ -1,0 +1,8 @@
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\obj\Debug\Emp.csproj.AssemblyReference.cache
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\obj\Debug\Emp.csproj.SuggestedBindingRedirects.cache
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\obj\Debug\Emp.csproj.CoreCompileInputs.cache
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\bin\Debug\Emp.exe.config
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\bin\Debug\Emp.exe
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\bin\Debug\Emp.pdb
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\obj\Debug\Emp.exe
+E:\Spektra-Internship\c#21.04.23\Emp\Emp\obj\Debug\Emp.pdb
